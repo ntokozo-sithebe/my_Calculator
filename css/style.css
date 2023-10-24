@@ -1,0 +1,13 @@
+*,
+::after,
+::before{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.numbers{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
