@@ -6,8 +6,71 @@
     box-sizing: border-box;
 }
 
-.numbers{
+/*.numbers{
     border-radius: 50px;
     display: flex;
     justify-content: center;
 }
+container , items , form {
+    display: flex;
+    justify-content: space-evenly
+}*/
+
+button{
+    width: 45px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+text,form{
+    display: inline;
+    text-decoration: solid;
+    display: flex;
+    
+}
+body{
+    background-color: pink;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+input{
+    width: 40vh;
+    height: 8vh;
+    background-color: rgb(128, 128, 128);
+}
+
+   
+button:nth-child(21) {
+    background-color: red;
+}
+
+button:nth-child(22){
+    background-color: rgba(170, 90, 246, 0.959);
+
+}
+button:nth-child(17){
+    background-color: lightblue;
+
+}
+button:nth-child(20){
+    background-color: peru;
+    
+}
+button:nth-child(12){
+    background-color: olive;
+
+}
+button:nth-child(7){
+    background-color: peachpuff;
+
+}
+
+
+
+
