@@ -6,33 +6,23 @@
     box-sizing: border-box;
 }
 
-
-form{
-    color: white;
-    width: 200px;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-}
 .container{
+    display: flex;
     width: auto;
     height: 700px;
     background-color: pink;
-
-}
-.calculator{
-    display: flex;
-    width: 200px;
-    aspect-ratio: 1/1;
     justify-content: center;
     align-items: center;
+
 }
 
-.text{
-    color: black;
-    font-size: 13px;
-    padding: 5px;
+.input{
+    display: grid;
+    grid-column: auto;
+    grid-row: 4;
+   
 }
+
+
 
 
