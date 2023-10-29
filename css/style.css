@@ -1,10 +1,4 @@
-*,
-::after,
-::before{
-    margin: 0px;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 .container{
     display: flex;
@@ -17,14 +11,32 @@
 }
 
 #answer{
-    padding: 1rem;
-    
+    padding: 3.5rem;
+    border: 1rem;
+   
 }
 
 .items{
-    padding: 1rem;
-    background-color: blueviolet;
+    display:flex;
+    padding: 9px;
+    background-color: rgb(213, 136, 136);
+    justify-content: center;
+    align-items: center;
 }
+
+input, button {
+    margin: auto;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
 
 
    
