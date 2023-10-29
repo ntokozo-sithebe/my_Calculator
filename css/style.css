@@ -31,6 +31,12 @@ input, button {
     justify-content: space-evenly;
 }
 
+numbers, .items :nth-child(even){
+    background-color: rgb(139, 233, 219);
+}
+numbers, .items :nth-child(odd){
+    background-color: #45cce4;
+}
 
 
 
