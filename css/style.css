@@ -7,13 +7,16 @@
     background-color: pink;
     justify-content: center;
     align-items: center;
+    border: 2px solid;
+    font-size: 1opx ;
+    font-weight: medium;
 
 }
 
 #answer{
-    padding: 3.5rem;
-    border: 1rem;
-   
+    width: 80%;
+    margin-bottom: 10px;
+
 }
 
 .items{
@@ -22,6 +25,7 @@
     background-color: rgb(213, 136, 136);
     justify-content: center;
     align-items: center;
+    
 }
 
 input, button {
@@ -29,36 +33,36 @@ input, button {
     padding: 25px;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 20%;
+    margin: 5px;
 }
 
-numbers, .items :nth-child(even){
-    background-color: rgb(139, 233, 219);
-}
-numbers, .items :nth-child(odd){
-    background-color: #5fc6d6;
+.items :hover{
+    background-color:darkgray ;
 }
 
-#fun :nth-child(3){
-    background-color: rgb(252, 54, 54);
-}
-#minus :nth-child(4){
-    background-color: rgba(227, 221, 36, 0.918);
-}
-#multi :nth-child(4){
-    background-color: rgb(197, 48, 97);
+#operators input {
+    color: black;
+    font-size: large;
+  
 }
 
-#plus :nth-child(4){
-    background-color: blueviolet;
+#operators input:nth-child(1){
+    background-color: rgb(232, 195, 86);
 }
-#fun :nth-child(4){
-    background-color: orange;
+#operators input:nth-child(2){
+    background-color: rgb(43, 226, 192);
+}
+#operators input:nth-child(3){
+    background-color: rgb(146, 125, 166);
+}
+#operators input:nth-child(4){
+    background-color: rgb(179, 59, 36);
 }
 
-
-
-
-
+#multi input:nth-child(4){
+    background-color: rgb(20, 180, 54);
+}
    
 
 
