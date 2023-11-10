@@ -35,11 +35,25 @@ numbers, .items :nth-child(even){
     background-color: rgb(139, 233, 219);
 }
 numbers, .items :nth-child(odd){
-    background-color: #45cce4;
+    background-color: #5fc6d6;
 }
 
+#fun :nth-child(3){
+    background-color: rgb(252, 54, 54);
+}
+#minus :nth-child(4){
+    background-color: rgba(227, 221, 36, 0.918);
+}
+#multi :nth-child(4){
+    background-color: rgb(197, 48, 97);
+}
 
-
+#plus :nth-child(4){
+    background-color: blueviolet;
+}
+#fun :nth-child(4){
+    background-color: orange;
+}
 
 
 
