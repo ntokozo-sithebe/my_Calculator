@@ -10,10 +10,9 @@
     <div class="container">
         <div class="calculator">
             <div class="div"> 
-                <input type="text" name="answer" id="answer" readonly>
+                <input type="text" name="answer" placeholder="0" id="answer" readonly>
             </div>
                 <div class="numbers">
-                    <!--<input type="text" name="answer" id="answer" readonly>-->
                     <div class="items" id="minus">
                     <input type="button" value="1" >
                     <input type="button" value="2" >
@@ -32,11 +31,14 @@
                     <input type="button" value="." >
                     <input type="button" value="C" >
                 </div>
-                <div class="items" id="operators">
+                <div class="items" data-submit="calculate" id="signs">
                     <input type="button" value="-">
                     <input type="button" value="+" >
                     <input type="button" value="*" >
                     <input type="button" value="/" >
+                </div>
+                <div class="items" id="equal">
+                    <input type="button" value="=">
                 </div>
 
     </div>

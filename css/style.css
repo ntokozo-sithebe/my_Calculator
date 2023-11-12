@@ -1,27 +1,32 @@
 
-
 .container{
     display: flex;
-    width: auto;
+    width:auto;
     height: 700px;
     background-color: pink;
     justify-content: center;
     align-items: center;
-    border: 2px solid;
-    font-size: 1opx ;
+    font-size: 20px ;
     font-weight: medium;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
 
 }
 
 #answer{
     width: 80%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+    text-align: end;
+    font-size: 50px;
+    border-radius: 10%;
 
 }
 
 .items{
-    display:flex;
-    padding: 9px;
+    display:grid;
+    grid-template-columns:repeat(4,20%);
     background-color: rgb(213, 136, 136);
     justify-content: center;
     align-items: center;
@@ -29,34 +34,36 @@
 }
 
 input, button {
-    margin: auto;
     padding: 25px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 20%;
-    margin: 5px;
+    border-radius: 30%;
+    margin:7px;
+    
 }
 
 .items :hover{
     background-color:darkgray ;
 }
 
-#operators input {
+#signs input {
     color: black;
     font-size: large;
-  
+}
+#equal button{
+    grid-column: span 4;
 }
 
-#operators input:nth-child(1){
+#signs input:nth-child(1){
     background-color: rgb(232, 195, 86);
 }
-#operators input:nth-child(2){
+#signs input:nth-child(2){
     background-color: rgb(43, 226, 192);
 }
-#operators input:nth-child(3){
+#signs input:nth-child(3){
     background-color: rgb(146, 125, 166);
 }
-#operators input:nth-child(4){
+#signs input:nth-child(4){
     background-color: rgb(179, 59, 36);
 }
 
