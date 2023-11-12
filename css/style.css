@@ -50,8 +50,10 @@ input, button {
     color: black;
     font-size: large;
 }
-#equal button{
+#equal input{
     grid-column: span 4;
+    background-color: palevioletred;
+    border-radius: 30%;
 }
 
 #signs input:nth-child(1){
@@ -67,7 +69,7 @@ input, button {
     background-color: rgb(179, 59, 36);
 }
 
-#multi input:nth-child(4){
+#cancel input:nth-child(4){
     background-color: rgb(20, 180, 54);
 }
    
