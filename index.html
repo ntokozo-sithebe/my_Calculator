@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>My calculator</title>
 </head>
-<body> 
+
+<body>
     <div class="container">
         <div class="calculator">
-            <div class="div"> 
-                <input type="text" name="answer" placeholder="0" id="answer" readonly>
+            <div class="div">
+                <form>
+                    <input type="numbers" name="answer" placeholder="0" id="answer" readonly>
+                </form>
             </div>
-                <div class="numbers">
-                    <div class="items">
-                    <input type="button"data-number value="1" >
-                    <input type="button"data-number value="2" >
-                    <input type="button"data-number value="3" >
-                    <input type="button"data-number value="4">
+            <div class="numbers">
+                <div class="items">
+                    <input type="button" data-numbOps value="1">
+                    <input type="button" data-numbOps value="2">
+                    <input type="button" data-numbOps value="3">
+                    <input type="button" data-numbOps value="4">
                 </div>
                 <div class="items">
-                    <input type="button"data-number value="5" >
-                    <input type="button"data-number value="6" >
-                    <input type="button"data-number value="7" >
-                    <input type="button"data-number value="8" >
+                    <input type="button" data-numbOps value="5">
+                    <input type="button" data-numbOps value="6">
+                    <input type="button" data-numbOps value="7">
+                    <input type="button" data-numbOps value="8">
                 </div>
                 <div class="items" id="cancel">
-                    <input type="button"data-number value="9" >
-                    <input type="button"data-number value="0">
-                    <input type="button"data-number value="." >
-                    <input type="button" data-cancel="cancel" value="C" >
+                    <input type="button" data-numbOps value="9">
+                    <input type="button" data-numbOps value="0">
+                    <input type="button" data-numbOps value=".">
+                    <input type="button" data-cancel="cancel" value="C">
                 </div>
                 <div class="items" id="signs">
-                    <input type="button" data-operation="minus" value="-">
-                    <input type="button" data-operation="plus" value="+" >
-                    <input type="button" data-operation="multi" value="*" >
-                    <input type="button" data-operation="subt" value="/" >
+                    <input type="button" data-numbOps="minus" value="-">
+                    <input type="button" data-numbOps="plus" value="+">
+                    <input type="button" data-numbOps="multi" value="*">
+                    <input type="button" data-numbOps="subt" value="/">
                 </div>
                 <div class="items" id="equal">
-                    <input type="button"data-equal value="=">
+                    <input type="button" data-equal value="=">
                 </div>
 
-    </div>
-</div>
-      
-<script src="./script/code.js"></script>
+            </div>
+        </div>
+
+        <script src="./script/code.js"></script>
 </body>
+
 </html>
