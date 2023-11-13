@@ -14,6 +14,7 @@ const equalButton = document.querySelector('[data-numbOps]')
 const equalButtons = document.querySelector('[data-equal]')
 equalButton.addEventListener('click',()=>{
    document.querySelector
+})
 
 
 
