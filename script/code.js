@@ -6,18 +6,21 @@ numberButtons.forEach( (btnNumbOps)=>{           // arrow function ... tartgeted
     })
 }) 
 
+
+const equalButton = document.querySelector('[data-numbOps]')
+ 
 //let btnequal = eval(`${btnNumbOps}+ ${btnNumbOps}`)
 
 const equalButtons = document.querySelector('[data-equal]')
 equalButton.addEventListener('click',()=>{
    document.querySelector
-})
 
 
 
 
 
-const equalButton = document.querySelector(['data-equal'])
+
+//const equalButton = document.querySelector(['data-equal'])
 // equalButton = addEventListener('click', displayAnswer )
 
 
