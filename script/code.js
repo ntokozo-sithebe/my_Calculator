@@ -16,6 +16,12 @@ equalButton.addEventListener('click',()=>{
    document.querySelector
 })
 
+function add(){
+    return (data-numbOps + data-numbOps)
+}
+console.log(add);
+add(5 + 7)
+
 
 
 

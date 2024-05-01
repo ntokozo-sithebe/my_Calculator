@@ -15,29 +15,30 @@
 }
 
 #answer{
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
     border: none;
     text-align: end;
     font-size: 50px;
-    border-radius: 10%;
+    border-radius: 1rem;
+    justify-content: center;
 
 }
 
 .items{
     display:grid;
     grid-template-columns:repeat(4,20%);
-    background-color: rgb(213, 136, 136);
+    background-color: rgb(143, 50, 50);
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     
 }
 
 input, button {
-    padding: 25px;
+    padding: 20px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 30%;
+    border-radius: 1rem;
     margin:7px;
     
 }
@@ -53,7 +54,7 @@ input, button {
 #equal input{
     grid-column: span 4;
     background-color: palevioletred;
-    border-radius: 30%;
+    border-radius: 1rem;
 }
 
 #signs input:nth-child(1){
